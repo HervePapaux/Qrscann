@@ -1,11 +1,6 @@
 {
-<<<<<<< HEAD
     "name": "Qrscann",
     "short_name": "Qr",
-=======
-    "name": "mubi",
-    "short_name": "mubi",
->>>>>>> parent of 50e5098... change pwa Icon
     "start_url": "index.html",
     "display": "standalone",
     "background_color": "#F4F4F4",
