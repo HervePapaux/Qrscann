@@ -9,11 +9,21 @@ self.addEventListener('push', function (event) {
     const title = 'Push Codelab';
     const options = {
         body: 'Yay it works.',
-        icon: 'images/icon.png',
+        icon: 'favicon.ico/apple-touch-icon.png',
         badge: 'images/badge.png'
     };
     self.registration.showNotification(title, options);
 
+});
+
+self.addEventListener('notificationclick', function (event) {
+    console.log('[Service Worker] Notification click Received.');
+
+    event.notification.close();
+
+    event.waitUntil(
+        clients.openWindow('https://hervepapaux.github.io/Qrscann/news/')
+    );
 });
 const dynamicCacheName = 'site-dynamic-v1';
 // activate event
