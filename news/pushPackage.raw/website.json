@@ -1,0 +1,10 @@
+{
+    "websiteName": "NodeJS Starter Application",
+    "websitePushID": "web.com.mubiapp",
+    "allowedDomains": [
+        "https://mubiapp.com"
+    ],
+    "urlFormatString": "https://yourwebsite.com/%@/",
+    "authenticationToken": "19f8d7a6e9fb8a7f6d9330dabe957043",
+    "webServiceURL": "https://mubiapp.com"
+}
