@@ -1,6 +1,6 @@
 {
-    "name": "mubi",
-    "short_name": "mubi",
+    "name": "QrScann",
+    "short_name": "Qr",
     "start_url": "index.html",
     "display": "standalone",
     "background_color": "#F4F4F4",
@@ -8,44 +8,24 @@
     "orientation": "portrait-primary",
     "icons": [
         {
-            "src": "assets/images/logo-72x72.png",
+            "src": "qr.ico/android-icon-72x72.png",
             "type": "image/png",
             "sizes": "72x72"
         },
         {
-            "src": "assets/images/logo-96x96.png",
+            "src": "qr.ico/android-icon-96x96.png",
             "type": "image/png",
             "sizes": "96x96"
         },
         {
-            "src": "assets/images/logo-128x128.png",
-            "type": "image/png",
-            "sizes": "128x128"
-        },
-        {
-            "src": "assets/images/logo-144x144.png",
+            "src": "qr.ico/android-icon-144x144.png",
             "type": "image/png",
             "sizes": "144x144"
         },
         {
-            "src": "assets/images/logo-152x152.png",
-            "type": "image/png",
-            "sizes": "152x152"
-        },
-        {
-            "src": "assets/images/logo-192x192.png",
+            "src": "qr.ico/android-icon-192x192.png",
             "type": "image/png",
             "sizes": "192x192"
-        },
-        {
-            "src": "assets/images/logo-384x384.png",
-            "type": "image/png",
-            "sizes": "384x384"
-        },
-        {
-            "src": "assets/images/logo-512x512.png",
-            "type": "image/png",
-            "sizes": "512x512"
         }
     ]
 }
